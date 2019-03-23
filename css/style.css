@@ -1,0 +1,150 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+  background-color: lightgray;
+  font-family: Arial, serif;
+  font-size: 14px;
+  color: black;
+}
+
+a, a:focus, a:hover, a:visited {
+  color: yellow;
+}
+
+h1 {
+  font-family: "lobster", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+  margin: 15px 0px;
+  font-size: 50px;
+    color:blue;
+}
+
+.container {
+  background-color: black;
+  margin: 0px auto;
+  padding: 0px;
+  max-width: auto-flow;
+}
+
+.row {
+  margin: 2px 0px;
+  padding: 15px;
+  line-height: 50px;
+}
+
+.menu {
+  position: absolute;
+  right: 0px;
+  bottom: 5px;
+  color: blue;
+  font-family: calibri, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+  #all {
+    background-color: whitesmoke;
+  }
+  #online, .circle {
+      background-color: whitesmoke;
+    }
+ 
+  #offline, .circle {
+      background-color: whitesmoke;
+    }
+ 
+  .active, .selector:hover {
+    width: 65px !important;
+    transition: $grow;
+    cursor:pointer;
+  }
+
+  .selector {
+    line-height: 20px;
+    height: 20px;
+    background-color: purple;
+    padding: 0px 5px;
+    margin: 2px 0px;
+    width: 20px;
+    overflow: hidden;
+    float: right;
+    clear: right;
+    transition: $grow;
+}
+    .circle {
+      height: 10px;
+      width: 10px;
+      border-radius: 50%;
+      background-color: white;
+      border: 1px solid black;
+      float: left;
+      margin: 5px 5px 5px 0px;
+    }
+
+    p {
+      float: right;
+      margin: 0px;
+    }
+
+#header, #footer {
+  position: relative;
+  background-color: lightgreen;
+  color: black;
+  padding: 5px 65px 5px 15px;
+}
+
+.logo {
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50%;
+  border: 3px solid blue;
+}
+
+.offline {
+  background-color: lightpink;
+}
+
+.online {
+  background-color: lightgoldenrodyellow;
+  color: black;
+}
+
+  a, a:focus, a:hover, a:visited {
+    color:red;
+  }
+
+
+#streaming {
+  font-style: italic;
+}
+
+#name, #streaming {
+  line-height: 25px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+
+@media (min-width: auto) 
+  .container {
+    margin: 10px auto;
+  }
+  
+  #name, #streaming {
+    line-height: 50px;
+    height: 50px;
+  }
+  
+  #header {
+    padding-left: 300px;
+  }
+.foot {
+    color:blue;
+    font-size:12px;
+    padding-left: 400px;
+}
